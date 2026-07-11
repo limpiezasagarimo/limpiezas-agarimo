@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Limpiezas Agarimo - Servicios de limpieza profesional para hogar y empresa">
+    <title>Limpiezas Agarimo - Limpieza Profesional</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🧹 Limpiezas Agarimo</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Limpieza Profesional para Tu Hogar y Negocio</h2>
+            <p>Servicios de limpieza de calidad, confiables y asequibles</p>
+            <a href="#reservas" class="btn btn-primary">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icon">🏠</div>
+                    <h3>Limpieza Residencial</h3>
+                    <p>Limpieza completa de tu hogar con atención al detalle</p>
+                    <ul>
+                        <li>Limpieza general</li>
+                        <li>Limpieza profunda</li>
+                        <li>Limpieza semanal/mensual</li>
+                    </ul>
+                    <p class="precio">Desde $50</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🏢</div>
+                    <h3>Limpieza Comercial</h3>
+                    <p>Mantenimiento profesional para oficinas y locales</p>
+                    <ul>
+                        <li>Limpieza de oficinas</li>
+                        <li>Limpieza de pisos comerciales</li>
+                        <li>Mantenimiento periódico</li>
+                    </ul>
+                    <p class="precio">Desde $100</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">✨</div>
+                    <h3>Limpieza Especializada</h3>
+                    <p>Servicios especiales para necesidades únicas</p>
+                    <ul>
+                        <li>Limpieza post-construcción</li>
+                        <li>Limpieza de alfombras</li>
+                        <li>Desinfección profunda</li>
+                    </ul>
+                    <p class="precio">Desde $75</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🪟</div>
+                    <h3>Limpieza de Ventanas</h3>
+                    <p>Servicio especializado en vidrios y ventanas</p>
+                    <ul>
+                        <li>Vidrios interiores/exteriores</li>
+                        <li>Marcos y alféizares</li>
+                        <li>Espejo y cristalería</li>
+                    </ul>
+                    <p class="precio">Desde $40</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🛏️</div>
+                    <h3>Limpieza de Telas</h3>
+                    <p>Cuidado profesional de sofás, colchones y más</p>
+                    <ul>
+                        <li>Limpieza de sofás</li>
+                        <li>Limpieza de colchones</li>
+                        <li>Limpieza de tapetes</li>
+                    </ul>
+                    <p class="precio">Desde $60</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">🚗</div>
+                    <h3>Otros Servicios</h3>
+                    <p>Soluciones adicionales personalizadas</p>
+                    <ul>
+                        <li>Limpieza de patios</li>
+                        <li>Organización de espacios</li>
+                        <li>Servicios a medida</li>
+                    </ul>
+                    <p class="precio">Consultar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SISTEMA DE RESERVAS -->
+    <section id="reservas" class="reservas">
+        <div class="container">
+            <h2>Sistema de Reservas</h2>
+            <div class="reservas-content">
+                <div class="formulario-reserva">
+                    <h3>Reserva tu Servicio</h3>
+                    <form id="formReserva" class="form-reserva">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="servicio">Servicio *</label>
+                            <select id="servicio" name="servicio" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="Limpieza Residencial">Limpieza Residencial</option>
+                                <option value="Limpieza Comercial">Limpieza Comercial</option>
+                                <option value="Limpieza Especializada">Limpieza Especializada</option>
+                                <option value="Limpieza de Ventanas">Limpieza de Ventanas</option>
+                                <option value="Limpieza de Telas">Limpieza de Telas</option>
+                                <option value="Otros Servicios">Otros Servicios</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fecha">Fecha *</label>
+                                <input type="date" id="fecha" name="fecha" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="hora">Hora *</label>
+                                <input type="time" id="hora" name="hora" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="direccion">Dirección *</label>
+                            <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="descripcion">Descripción del Servicio</label>
+                            <textarea id="descripcion" name="descripcion" rows="4" placeholder="Cuéntanos detalles sobre lo que necesitas limpiar"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+                    </form>
+                </div>
+
+                <div class="reservas-list">
+                    <h3>Tus Reservas</h3>
+                    <div id="reservasContainer" class="reservas-container">
+                        <p class="no-reservas">No hay reservas aún. ¡Haz tu primer reserva!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="ubicacion">
+        <div class="container">
+            <h2>Nuestra Ubicación</h2>
+            <div class="ubicacion-content">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.8344418526346!2d-99.13282!3d19.432608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce2e46c2b2b2b2b%3A0xb2b2b2b2b2b2b2b2!2sMexico%20City!5e0!3m2!1ses!2smx!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="info-ubicacion">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <strong>📍 Dirección:</strong>
+                        <p>Calle Principal 123, Ciudad (Actualiza tu dirección)</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📞 Teléfono:</strong>
+                        <p>+55 (123) 456-7890</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📧 Email:</strong>
+                        <p>contacto@limpiezasagarimo.com</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>⏰ Horario:</strong>
+                        <p>Lunes a Viernes: 8:00 AM - 6:00 PM<br>Sábado: 9:00 AM - 3:00 PM<br>Domingo: Cerrado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Formulario de Contacto</h2>
+            <form id="formContacto" class="form-contacto">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactoNombre">Nombre *</label>
+                        <input type="text" id="contactoNombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactoEmail">Email *</label>
+                        <input type="email" id="contactoEmail" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactoAsunto">Asunto *</label>
+                    <input type="text" id="contactoAsunto" name="asunto" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactoMensaje">Mensaje *</label>
+                    <textarea id="contactoMensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+            <div id="mensajeContacto" class="mensaje-contacto"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Limpiezas Agarimo. Todos los derechos reservados.</p>
+            <p>Sitio web desarrollado con ❤️</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/reservas.js"></script>
+</body>
+</html>
