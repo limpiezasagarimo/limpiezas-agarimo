@@ -53,7 +53,15 @@ body {
     font-size: 1.8rem;
     color: var(--primary-color);
 }
-
+.logo {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+  }   
+    .logo img {
+        height: 60px;
+        width: auto;
+}
 .nav-links {
     display: flex;
     list-style: none;
@@ -264,7 +272,7 @@ body {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 0 5px rgb(255, 255, 255);
-    
+
 }
 
 .reservas-list {
