@@ -1,13 +1,14 @@
 /* ===== VARIABLES Y RESET ===== */
 :root {
-    --primary-color: #2ecc71;
-    --secondary-color: #27ae60;
+    --primary-color: #124689;
+    --secondary-color: #ffffff;
     --dark-color: #2c3e50;
     --light-color: #ecf0f1;
     --text-color: #333;
     --border-radius: 8px;
     --transition: all 0.3s ease;
 }
+
 
 * {
     margin: 0;
@@ -262,7 +263,8 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 5px rgba(46, 204, 113, 0.3);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    
 }
 
 .reservas-list {
