@@ -281,7 +281,61 @@ a {
     font-family: Arial, sans-serif;
     color: var(--gris);
 }
+/* VENTAJAS */
 
+.ventajas {
+    background: var(--fondo);
+}
+
+.ventajas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.ventaja {
+    background: var(--blanco);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    padding: 28px;
+    box-shadow: var(--sombra);
+}
+
+.ventaja span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 18px;
+    border-radius: 50%;
+    background: var(--dorado);
+    color: var(--blanco);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.ventaja h3 {
+    color: var(--azul);
+    margin-bottom: 10px;
+}
+
+.ventaja p {
+    color: var(--gris);
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 900px) {
+    .ventajas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .ventajas-grid {
+        grid-template-columns: 1fr;
+    }
+}
 /* SOBRE NOSOTROS */
 
 .seccion-azul {
