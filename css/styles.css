@@ -156,12 +156,16 @@ a {
     min-height: 580px;
     display: flex;
     align-items: center;
-    background:
-        linear-gradient(
-            110deg,
-            rgba(11, 40, 84, 0.98),
-            rgba(22, 63, 120, 0.88)
-        );
+   background:
+    linear-gradient(
+        rgba(11,40,84,.75),
+        rgba(11,40,84,.75)
+    ),
+    url("../imagenes/portada.jpg");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
     color: var(--blanco);
     position: relative;
     overflow: hidden;
