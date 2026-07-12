@@ -55,11 +55,10 @@ body {
     gap: 14px;
 }
 
-.logo img {
-    height: 65px;
-    width: 65px;
-    object-fit: cover;
-    border-radius: 50%;
+.logo img{
+    height:55px;
+    width:55px;
+    border-radius:50%;
 }
 
 .logo-texto {
