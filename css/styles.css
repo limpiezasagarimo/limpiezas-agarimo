@@ -538,19 +538,3 @@ background-repeat: no-repeat;
         text-align: center;
     }
 }
-.ventajas-portada{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    margin-top:50px;
-    flex-wrap:wrap;
-}
-
-.ventajas-portada div{
-    background:rgba(255,255,255,.12);
-    padding:15px 22px;
-    border-radius:30px;
-    color:white;
-    font-weight:600;
-    backdrop-filter:blur(6px);
-}
