@@ -538,3 +538,41 @@ background-repeat: no-repeat;
         text-align: center;
     }
 }
+/* ===== EMPLEO ===== */
+
+.empleo{
+    background:#f8f9fa;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.empleo h2{
+    font-size:2.2rem;
+    color:#1f2937;
+    margin-bottom:20px;
+}
+
+.empleo p{
+    max-width:700px;
+    margin:0 auto 20px;
+    font-size:1.1rem;
+    line-height:1.7;
+    color:#555;
+}
+
+.empleo .boton{
+    display:inline-block;
+    background:#2bb673;
+    color:#fff;
+    padding:16px 36px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1.1rem;
+    transition:.3s;
+}
+
+.empleo .boton:hover{
+    background:#239a61;
+    transform:translateY(-2px);
+}
